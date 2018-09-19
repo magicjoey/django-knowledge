@@ -7,6 +7,8 @@ Development Lead
 
 - Bryan Helmig <bryan@zapier.com>
 
+- Magicjoey <out_lier@126.com
+
 
 Patches and Suggestions
 ```````````````````````

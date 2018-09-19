@@ -42,8 +42,8 @@ class KnowledgeBase(models.Model):
     """
     is_question, is_response = False, False
 
-    added = models.DateTimeField(auto_now_add=True)
-    lastchanged = models.DateTimeField(auto_now=True)
+    gmt_create = models.DateTimeField(auto_now_add=True)
+    gmt_modified = models.DateTimeField(auto_now=True)
 
     user = models.ForeignKey('auth.User' if django.VERSION < (1, 5, 0) else django_settings.AUTH_USER_MODEL, blank=True,
                              null=True, db_index=True)
@@ -166,7 +166,7 @@ class Question(KnowledgeBase):
     objects = QuestionManager()
 
     class Meta:
-        ordering = ['-added']
+        ordering = ['-gmt_create']
         verbose_name = _('Question')
         verbose_name_plural = _('Questions')
 
@@ -266,7 +266,7 @@ class Response(KnowledgeBase):
     objects = ResponseManager()
 
     class Meta:
-        ordering = ['added']
+        ordering = ['gmt_create']
         verbose_name = _('Response')
         verbose_name_plural = _('Responses')
 

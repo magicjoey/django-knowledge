@@ -1,42 +1,31 @@
-This project is no longer maintained. If you are interested in taking over the project, email `contact@zapier.com 
-<mailto:contact@zapier.com>`_.
-
-Welcome to django-knowledge!
+欢迎来到 django-knowledge!
 ============================
 
-django-knowledge makes it easy to add an integrated support desk, help desk or 
-knowledge base to your Django project with only a few lines of boilerplate code.
-While we give you a generic design for free, you should just as easily be able 
-to customize the look and feel of the app if you like.
-
-**django-knowledge** was developed internally for `Zapier <https://zapier.com/z/qO/>`_ 
-(see it live here `on our support page <https://zapier.com/z/3C/support/>`_). Or, check 
-out a `plain, live demo <http://django-knowledge.org/>`_.
+这个项目主要是为了简便的打造知识库和帮助中心，你可以定制你的外观。
 
 
-At a glance:
+看一眼:
 ------------
 
 - Turn common questions or support requests into a **knowledge base**.
-- Control **who sees what** with simple per object view permissions: *public* (everyone), 
+- Control **who sees what** with simple per object view permissions: *public* (everyone),
   *private* (poster & staff), or *internal* (only staff).
 - Assign questions and answers to **categories** for easy sorting.
 - Staff get **moderation controls** or they can use the familiar *Django admin* to handle support requests.
 - Allow **anonymous questions**, or require a standard Django user account (the default).
 - Included base **templates and design** with prebundled HTML and CSS.
 - Optionally **alert users** of new responses via email (or your own alert system).
-- BSD license.
+- BSD协议.
 
 
-Links:
+链接:
 ------
 
-* View a `live demo <http://django-knowledge.org/>`_. This is the included stock design.
-* Check out the `documentation <http://django-knowledge.readthedocs.org/>`_ at ReadTheDocs.
-* Visit our `GitHub repo <https://github.com/zapier/django-knowledge>`_ and join the development!
+* Demo: `live demo <http://django-knowledge.org/>`_.
+* 文档: `documentation <http://django-knowledge.readthedocs.org/>`_
 
 
-Screen Shots:
+截图:
 -------------
 
 .. image:: https://github.com/zapier/django-knowledge/raw/master/docs/images/thread.png
