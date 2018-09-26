@@ -21,7 +21,7 @@ MIDDLEWARE = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 INSTALLED_APPS = (
@@ -35,11 +35,11 @@ INSTALLED_APPS = (
     # 多站点
     'django.contrib.sites',
 
-    'debug_toolbar',
-    'knowledge',
+    # 'debug_toolbar',
     # 'south',
     'django_coverage',
-    'mock',
+    # 'mock',
+    'knowledge',
 )
 
 

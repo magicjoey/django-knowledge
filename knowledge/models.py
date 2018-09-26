@@ -59,6 +59,9 @@ class KnowledgeBase(models.Model):
     email = models.EmailField(blank=True, null=True,
         verbose_name=_('Email'),
         help_text=_('Enter a valid email address.'))
+    test = models.CharField(max_length=64, blank=True, null=True,
+        verbose_name=_('test'),
+        help_text=_('Enter your first and last name.'))
 
     class Meta:
         abstract = True
